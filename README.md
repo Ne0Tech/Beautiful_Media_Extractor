@@ -9,6 +9,7 @@ A simple Python script that downloads your own YouTube or YouTube Music playlist
 - Python 3.7+
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [ffmpeg-git-essentials.7z](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
+- 7zip or some kind of unzipping software
 
 ---
 
