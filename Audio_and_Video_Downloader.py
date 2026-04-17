@@ -148,6 +148,7 @@ def download_playlist(
             print("Download error: " + str(e))
             sys.exit(1)
 
+
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -164,16 +165,14 @@ if __name__ == "__main__":
 
     OUTPUT_DIR = "downloads"  # Where your files will end up and can be changed to another folder by changing the path.
 
-
-    FFMPEG_DIR = None
+    FFMPEG_DIR = "C:\Users\pedigzav001\Downloads\;"
     # ─────────────────────────────────────────────────────────────────────────
 
     if "YOUR_PLAYLIST_ID" in PLAYLIST_URL:
-
         print("  Please set PLAYLIST_URL to your actual playlist URL.")
         print("    Edit the PLAYLIST_URL variable near the bottom of this script.")
         sys.exit(0)
 
     download_playlist_as_mp3: (PLAYLIST_URL, OUTPUT_DIR, QUALITY, FFMPEG_DIR)
 
-    FFMPEG_DIR = r"C:\Users\pedigzav001\Downloads\ffmpeg-8.1.tar.xz" # Replace the text in this string with the file path to the ffmpeg file downloaded earlier
+    FFMPEG_DIR = r"C:\Users\pedigzav001\Downloads\ffmpeg-8.1.tar.xz"  # Replace the text in this string with the file path to the ffmpeg file downloaded earlier
