@@ -83,7 +83,7 @@ def download_playlist_as_mp3(playlist_url, output_dir="downloads", quality="192"
 if __name__ == "__main__":
     # --- Configuration: edit these values ---
 
-    PLAYLIST_URL = "https://music.youtube.com/playlist?list=YOUR_PLAYLIST_ID"
+    PLAYLIST_URL = "------"
 
     # Audio quality in kbps: "128", "192", or "320"
     QUALITY = "192"
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     # Path to the folder containing ffmpeg.exe and ffprobe.exe
     #   e.g. FFMPEG_DIR = r"C:\ffmpeg\bin"
-    FFMPEG_DIR = r"C:\Users\pedigzav001\Downloads\;"
+    FFMPEG_DIR = r"------"
 
     # ----------------------------------------
 
