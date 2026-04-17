@@ -8,7 +8,7 @@ A simple Python script that downloads your own YouTube or YouTube Music playlist
 
 - Python 3.7+
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [ffmpeg](https://ffmpeg.org/download.html) (required for MP3 conversion)
+- [ffmpeg-git-essentials.7z](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z)
 
 ---
 
@@ -23,11 +23,7 @@ pip install yt-dlp
 
 | OS | Command |
 |----|---------|
-| Windows | Download from [ffmpeg.org](https://ffmpeg.org/download.html) and extract to a folder e.g. `C:\ffmpeg` |
-| macOS | `brew install ffmpeg` |
-| Ubuntu/Debian | `sudo apt install ffmpeg` |
-
-> **Windows users:** After extracting, make sure your folder contains both `ffmpeg.exe` and `ffprobe.exe`. You will point the script directly at this folder — no need to add anything to PATH.
+| Windows | Download ffmpeg-git-essentials.7z from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) and extract to a folder e.g. `C:\ffmpeg` |
 
 ---
 
