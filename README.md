@@ -15,7 +15,7 @@ A simple Python script that downloads your own YouTube or YouTube Music playlist
 
 ## Installation
 
-**1. Install yt-dlp**
+**1. Install yt-dlp using the terminal**
 ```bash
 pip install yt-dlp
 ```
